@@ -1,0 +1,28 @@
+{
+  "summary": "Save button times out",
+  "expected": "Saved record appears once",
+  "steps": [
+    "Open the edit form",
+    "Change the title",
+    "Click Save once"
+  ],
+  "environment": {
+    "os": "macOS",
+    "runtime": "Node 22",
+    "version": "demo"
+  },
+  "attempts": [
+    {
+      "id": "1",
+      "reproduced": true,
+      "actual": "Timeout after 10 seconds",
+      "evidence": "logs/attempt-1.txt"
+    },
+    {
+      "id": "2",
+      "reproduced": false,
+      "actual": "Saved after 2 seconds",
+      "evidence": "logs/attempt-2.txt"
+    }
+  ]
+}

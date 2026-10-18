@@ -1,0 +1,4 @@
+interface:
+  display_name: "KarmenLoop Bug Reproduction"
+  short_description: "Bug Reproduction with reproducible local checks"
+  default_prompt: "Use $karmen-bug-repro to create a reproducible bug report from these observed attempts."
