@@ -3,7 +3,7 @@ name: karmen-bug-repro
 description: "Turn scattered bug observations into a reproducible investigation. Use when a bug report lacks reliable steps, environment details, or repeatability evidence."
 metadata:
   author: KarmenLoop
-  version: "0.2.0"
+  version: "0.2.1"
 ---
 
 # Bug Reproduction
